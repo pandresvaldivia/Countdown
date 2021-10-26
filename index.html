@@ -8,17 +8,27 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
 			rel="stylesheet"
 		/>
 
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="./css/countdown.css" />
 		<link rel="stylesheet" href="./css/countdown-item.css" />
+		<link rel="stylesheet" href="./css/modal.css" />
 
 		<title>Countdown</title>
 	</head>
 	<body class="body">
+		<div class="modal">
+			<form class="modal-form">
+				<label class="modal-title"
+					>Ingrese una fecha
+					<input id="date" class="modal-input" type="date" />
+				</label>
+				<input class="modal-button" type="submit" value="¡Listo!" />
+			</form>
+		</div>
 		<section
 			class="countdown"
 			aria-label="Contador: Faltan 8 días, 25 horas, 15 minutos y 04 segundos"
