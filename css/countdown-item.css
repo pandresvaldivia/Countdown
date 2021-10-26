@@ -1,0 +1,25 @@
+.countdownItem {
+	color: var(--white);
+	flex: 1;
+}
+
+.countdownItem-value {
+	background: var(--black);
+	block-size: 4.2631rem;
+	font: var(--digit);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.countdownItem-label {
+	font: var(--label);
+	text-align: center;
+	margin: 0;
+	margin-block-start: 0.4781rem;
+}

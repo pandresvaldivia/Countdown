@@ -1,0 +1,5 @@
+.countdown {
+	display: flex;
+	gap: 0.4781rem;
+	inline-size: 71%;
+}
