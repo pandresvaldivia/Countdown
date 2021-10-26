@@ -4,22 +4,37 @@
 }
 
 .countdownItem-value {
+	aspect-ratio: 91/107;
 	background: var(--black);
-	block-size: 4.2631rem;
-	font: var(--digit);
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+	border-radius: 0.3125rem;
 	display: flex;
-	align-items: center;
+	font-size: min(11vw, 8rem);
+	font-weight: 700;
 	justify-content: center;
+	-moz-border-radius: 0.3125rem;
+	-ms-border-radius: 0.3125rem;
+	-o-border-radius: 0.3125rem;
+	-webkit-border-radius: 0.3125rem;
+	align-items: center;
 }
 
 .countdownItem-label {
-	font: var(--label);
-	text-align: center;
+	font-size: min(3vw, 2.5rem);
 	margin: 0;
 	margin-block-start: 0.4781rem;
+	text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+	.countdownItem-value {
+		border-radius: 1rem;
+		-webkit-border-radius: 1rem;
+		-moz-border-radius: 1rem;
+		-ms-border-radius: 1rem;
+		-o-border-radius: 1rem;
+	}
+
+	.countdownItem-label {
+		margin-block-start: 1.5rem;
+	}
 }

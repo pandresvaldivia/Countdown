@@ -5,19 +5,18 @@
 	--grey: #787878;
 	--white: #ffffff;
 	--fontBase: 'Roboto Condensed', sans-serif;
-	--digit: 700 2.5rem/2.9294rem var(--fontBase);
-	--label: 300 0.75rem/0.8788rem var(--fontBase);
 }
 
 .body {
+	align-items: center;
 	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 100%, transparent),
 		url('../assets/images/background.png');
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	min-block-size: 100vh;
-	margin: 0;
 	display: flex;
-	align-items: center;
+	font-family: var(--fontBase);
 	justify-content: center;
+	margin: 0;
+	min-block-size: 100vh;
+	min-inline-size: 22.5rem;
 }
